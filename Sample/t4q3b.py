@@ -54,7 +54,7 @@ def my_train(rate):
                         use_multiprocessing=False)
     
                     
-    return(history.history['loss'])
+    return(history)
 
 
 def main():
